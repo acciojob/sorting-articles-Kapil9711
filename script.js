@@ -16,7 +16,7 @@ const sortedBands = bands.sort((band1,band2)=>{
 	else return 1;
 });
 
-const ul = document.getElementById('ul');
+const ul = document.getElementById('bands');
 
 sortedBands.forEach(band=>{
 	const li = document.createElement('li');
